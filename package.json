@@ -1,0 +1,15 @@
+{
+  "name": "nightwatchtest",
+  "version": "1.0.0",
+  "description": "A small automated test for deploying to Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch -e"
+  },
+  "author": "Travis Schnider travis.schnider@gmail.com",
+  "dependencies": {
+    "geckodriver": "^1.12.2",
+    "nightwatch": "^0.9.21",
+    "selenium-server-standalone-jar": "^3.13.0"
+  }
+}
